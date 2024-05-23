@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(97, 80, 80);
+    color: white;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-color: brown;
+}
+.logo{
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+}
+.navbar a{
+    font-size: 18px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .4s;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: aqua;
+}
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0;
+
+}
+.home-img img{
+    max-width: 450px;
+    margin-right: -20px;
+    background: rgb(0, 0, 0);
+    color: black;
+    box-shadow: 0 0 10px aqua;
+}
+.home-content{
+    max-width: 600px;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-content h3 span{
+    color: aqua;
+ }
+.home-content h1{
+    font-size:56px;
+    font-weight: 700;
+    margin:3px 0;
+}
+.home-content h3:nth-of-type(2){
+    margin-bottom:30px ;
+}
+.home-content p{
+    font-size: 16px;
+}
+.social-media a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(19, 223, 245);
+    border-radius:50%;
+    color: aqua;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: .5s ease;
+}
+.social-media a:hover{
+    background: aqua;
+    color: black;
+    box-shadow: 0 0 20px aqua;
+}
+.btn{
+    display:inline-block;
+    padding: 12px 28px;
+    background: aqua;
+    border-radius: 40px;
+    box-shadow: 0 0 10px aqua;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: 600;
+    text-decoration:none;
+    font-size: 16px;
+}
+.btn:hover{
+    background: aqua;
+    color: black;
+    box-shadow: 0 0 40px aqua;
+}
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+  }
+
+  .chartContainer {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: 700px;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start; /* Align the chart to the left */
+    align-items: center;
+  }
+  #chartGlow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    z-index: -1;
+  }
+/* Variables */
+
+.education-container {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.timeline-item {
+    display: flex;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.timeline-content {
+    flex: 2;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+}
+
+.timeline-content h3 {
+    margin-top: 0;
+}
+
+.timeline-content p {
+    margin-bottom: 10px;
+}
+
+.timeline-image {
+    flex: 1;
+    text-align: center;
+}
+
+.timeline-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 3, 3, 0.1);
+}
+.skill-group {
+	margin: 0 auto;
+	width: 70%;
+}
+.skill-group > p {
+	color: white
+}
+.skill-bar {
+	width: 650%;
+    height: 5px;
+	background-color: white;
+    border-radius: 80px;
+    box-shadow: 0 0 30px aqua;
+}
+.skill-value {
+	text-align: start;
+	padding: 2.5px;
+    height: 4px;
+	color: black;
+    border-radius: 80px;
+    box-shadow: 0 0 30px aqua;
+
+}
+.html {
+	width: 90%;
+	background-color: aqua;
+}
+.p {
+	width: 70%;
+	background-color: aqua;
+}
+.ta {
+	width: 55%;
+	background-color: aqua;
+}
+.jc {
+	width: 70%;
+	background-color:aqua;
+}
+.ml {
+	width: 70%;
+	background-color: hsl(181, 100%, 50%);
+}
+.dl {
+	width: 60%;
+	background-color:aqua;
+}
+/* /// */
+.achievement-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.achievement-card {
+    background-color: #000000;
+    padding: 30px;
+    border-radius: 8px;
+    margin-right: 1rem;
+    justify-content: flex-start;
+    width: 27%;
+    height: 286px;
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+
+    /* transition: box-shadow 0.3s ease-in-out; */
+
+
+}
+
+.achievement-card:hover {
+    box-shadow: 0 0 20px 0 rgb(2, 213, 255);
+
+}
+
+.achievement-card h3 {
+    margin-top: 0;
+    color: #3498db; /* Adjust color as needed */
+}
+
+.achievement-card p {
+    margin-bottom: 0;
+}
+  
