@@ -197,7 +197,7 @@ body {
 	color: white
 }
 .skill-bar {
-	width: 650%;
+	width: 350%;
     height: 5px;
 	background-color: white;
     border-radius: 80px;
@@ -213,27 +213,31 @@ body {
 
 }
 .html {
+	width: 95%;
+	background-color: aqua;
+}
+.htm {
 	width: 90%;
 	background-color: aqua;
 }
 .p {
-	width: 70%;
+	width: 85%;
 	background-color: aqua;
 }
 .ta {
-	width: 55%;
+	width: 75%;
 	background-color: aqua;
 }
 .jc {
-	width: 70%;
+	width: 85%;
 	background-color:aqua;
 }
 .ml {
-	width: 70%;
+	width: 85%;
 	background-color: hsl(181, 100%, 50%);
 }
 .dl {
-	width: 60%;
+	width: 79%;
 	background-color:aqua;
 }
 /* /// */
